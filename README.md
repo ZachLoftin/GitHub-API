@@ -1,5 +1,7 @@
 Visualizing the Most-Starred Python Projects on GitHub
-This script retrieves data from the GitHub API to analyze and visualize the most-starred Python projects. 
+
+This script retrieves data from the GitHub API to analyze and visualize the most-starred Python projects.
+
 Using Plotly, the script generates an interactive bar chart displaying repositories, their star counts, and additional details like the owner's username and project description.
 
 How It Works
@@ -34,16 +36,16 @@ Required Python libraries:
 -requests
 -plotly
 Install the dependencies using:
-    pip install requests plotly
+    - pip install requests plotly
 
 How to Run
 1. Clone the repository or copy the script.
 2. Install the required Python libraries.
 3. Run the script:
-    python most_starred_python_projects.py
+    - python most_starred_python_projects.py
 4. Open the generated python_repos.html file in a web browser to view the visualization.
 
 Customization
 -To fetch repositories for a different programming language, modify the language parameter in the URL:
-    url = 'https://api.github.com/search/repositories?q=language:javascript&sort=stars'
+   - url = 'https://api.github.com/search/repositories?q=language:javascript&sort=stars'
 -Adjust chart colors, opacity, and other visualization settings in the marker and layout dictionaries.
